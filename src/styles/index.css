@@ -10,6 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color:#212529;
+}
 
 #counter {
     letter-spacing: 40px;
@@ -17,4 +20,16 @@
     text-align: center;
     font-family: sans-serif;
     color: whitesmoke;
+}
+
+button {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(186, 122, 2, 0.641);
+    color: white;
+    margin: 5px;
+    text-transform: uppercase;
+}
+.fa-solid {
+    color: rgb(169, 13, 13);
 }
