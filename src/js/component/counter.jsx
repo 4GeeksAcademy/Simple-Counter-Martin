@@ -35,8 +35,8 @@ function SecondsCounter() {
       {isRunning ? <i class="fa-regular fa-clock"></i> : <i class="fa-solid fa-clock"></i>}{timeString}
       </div>
       <div>
-      <button onClick={resetCounter}>Reset</button>
-      <button onClick={toggleRunning}>
+      <button type="button" class="btn btn-warning" onClick={resetCounter}>Reset</button>
+      <button type="button" class={isRunning ? "btn btn-secondary" : "btn btn-success"} onClick={toggleRunning}>
         {isRunning ? 'Pause' : 'Resume'}
       </button>
       </div>      
